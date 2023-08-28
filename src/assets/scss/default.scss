@@ -1,0 +1,55 @@
+@import 'fonts';
+@import 'colors';
+
+* {
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    max-width: 1920px;
+    padding: 0 24px;
+    width: 100%;
+    height: auto;
+    // overflow: hidden;
+    margin: auto;
+}
+
+body {
+    background-color: $gray;
+    width: 100%;
+}
+
+a {
+    color: inherit;
+
+    &:visited {
+        color: inherit;
+    }
+}
+
+.text {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.subtitle {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 48px;
+    color: $dark;
+}
+
+.title {
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    color: $dark;
+}
